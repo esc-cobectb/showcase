@@ -1,0 +1,32 @@
+.bx-ss-icon.strava {
+    width: 40px;
+    height: 40px;
+    background: url('/local/assets/images/auth/strava.svg') no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.strava-button {
+	width: 188px;
+    height: 44px;
+    background: url(/local/modules/openurbantech.strava/assets/btn_strava_connectwith_orange.png) no-repeat center center;
+    display: block;
+    margin: auto;
+}
+.strava-button span {
+	display: none;
+}
+.bx-auth-service-form #bx_auth_serv_formStrava {
+	text-align: center;
+}
+
+div.bx-auth-services a{
+	display: block;
+}
+td.bx-ss-icons {
+    display: flex;
+    align-items: center;
+}
+td.bx-ss-icons .bx-ss-icon{
+    margin: 4px;   
+}
